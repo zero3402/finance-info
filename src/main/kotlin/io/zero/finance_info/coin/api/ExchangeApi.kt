@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono
 @RequestMapping("/exchanges")
 class ExchangeApi {
 
-    @GetMapping("/{exchange}")
-    fun getUserById(@PathVariable exchange: String): Unit {
+    @GetMapping("/{exchange}/tickers")
+    fun getTickersByExchange(@PathVariable exchange: String): Unit {
     }
 }
