@@ -4,4 +4,8 @@ import org.springframework.stereotype.Service
 
 @Service
 class FinanceService {
+
+    fun getExchangeRateByCurrency(currency: String) : Unit {
+
+    }
 }

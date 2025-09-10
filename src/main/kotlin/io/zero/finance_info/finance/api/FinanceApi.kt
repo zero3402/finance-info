@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/finances")
 class FinanceApi {
 
-    @GetMapping("/rate")
-    fun getExchangeRate(): Unit {
+    @GetMapping("/exchange-rate/{currency}")
+    fun getExchangeRateByCurrency: Unit {
     }
 }
