@@ -1,1 +1,17 @@
-spring.application.name=finance_info
+spring:
+  application:
+    name: finance_info
+
+exchanges:
+  upbit:
+    url: https://api.upbit.com
+  binance:
+    url: https://api.binance.com
+  bybit:
+    url: https://api.bybit.com
+
+finances:
+  currency:
+    url:
+
+

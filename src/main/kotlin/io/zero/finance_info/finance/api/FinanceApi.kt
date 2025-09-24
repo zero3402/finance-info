@@ -10,5 +10,6 @@ class FinanceApi {
 
     @GetMapping("/exchange-rate/{currency}")
     fun getExchangeRateByCurrency: Unit {
+
     }
 }
